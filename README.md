@@ -1,2 +1,2 @@
 # pizza-order-sorting-cli
-CLI application to read one file, sort the content and write into another
+CLI application to read files from source folder, sort the content and write into destination folder
