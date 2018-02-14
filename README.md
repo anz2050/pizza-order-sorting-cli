@@ -29,7 +29,12 @@ CLI application to read files from source folder, sort the content and write int
   $> java -jar target/pizza-order-sorting-cli-0.0.1-SNAPSHOT.jar -srcDir <source folder> -destDir <destination folder>
 ```
 
-* **Example:**
+* **To check command line options:**
+```
+  $> java -jar target/pizza-order-sorting-cli-0.0.1-SNAPSHOT.jar -help
+```
+
+* **Run the application from command line**
 ```
   $> java -jar target/pizza-order-sorting-cli-0.0.1-SNAPSHOT.jar -srcDir C:\tmp\data-file -destDir C:\tmp\out
 ```
