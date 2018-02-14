@@ -24,3 +24,18 @@ CLI application to read files from source folder, sort the content and write int
 ```
   $> java -jar target/pizza-order-sorting-cli-0.0.1-SNAPSHOT.jar -srcDir C:\tmp\data-file -destDir C:\tmp\out
 ```
+
+* **Run Unit Tests:**
+```
+   $> cd pizza-order-sorting-cli
+  
+  $> mvn test
+```
+
+## Assumptions
+
+* Correct source and target folder provided
+* Source folder have text file(s)
+* File has two field each line with space as separator
+* First line in file, has header
+* User have permission to create folder/file on the drive
