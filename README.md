@@ -1,6 +1,15 @@
 # pizza-order-sorting-cli
 CLI application to read files from source folder, sort the content and write into destination folder
 
+## Project Technology Description
+
+  - Spring Boot (For simplicity)
+  - Java 1.8
+  - Apache Maven
+  - Google Guava
+  - Apache Common CLI
+  - jUnit, Mockito (unit testing)
+  
 ## Download, Build & Run this Application
 
 * **Download:**
