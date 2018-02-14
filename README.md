@@ -46,5 +46,5 @@ CLI application to read files from source folder, sort the content and write int
 * Correct source and target folder provided
 * Source folder have text file(s)
 * File has two field each line with space as separator
-* First line in file, has header
+* First line in file is header information
 * User have permission to create folder/file on the drive
