@@ -39,24 +39,5 @@ public class SortingCliApplication implements CommandLineRunner {
 	    final Map<String, File> srcAndDestFolder = cliOptionManager.parseCommandLine(commandLineArgs);
 	    
 	    fileProcessor.processFile(srcAndDestFolder.get(SRC_DIR), srcAndDestFolder.get(DEST_DIR));
-		
 	}
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

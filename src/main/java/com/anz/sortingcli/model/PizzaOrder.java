@@ -5,9 +5,8 @@ public class PizzaOrder {
 	private String OrderName;
 	private String time;
 
-	protected PizzaOrder() {
+	public PizzaOrder() {
 		super();
-
 	}
 	
 	public PizzaOrder(String orderName, String time) {

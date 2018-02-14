@@ -22,7 +22,6 @@ import com.anz.sortingcli.model.PizzaOrder;
 @Component
 public class FileProcessor {
 	
-	
 	private static final Logger logger = LoggerFactory.getLogger(FileProcessor.class);
 		
 	public void processFile(File sourceDir, final File destinationDir) {
@@ -56,7 +55,6 @@ public class FileProcessor {
 		}
 	}
 	
-
 	private void sortPizzaOrderByName(List<PizzaOrder> pizzaOrderList) {
 		Collections.sort(pizzaOrderList, new Comparator<PizzaOrder>() {
 			@Override
@@ -95,5 +93,4 @@ public class FileProcessor {
 	private String getDestinationFilePath(File destinationDir, String fileName) {
 		return destinationDir.getAbsolutePath() + getFileSeparator() + fileName;
 	}
-
 }
