@@ -24,11 +24,6 @@ CLI application to read files from source folder, sort the content and write int
   $> mvn clean package
 ```  
 
-* **Run Application:**
-```
-  $> java -jar target/pizza-order-sorting-cli-0.0.1-SNAPSHOT.jar -srcDir <source folder> -destDir <destination folder>
-```
-
 * **To check command line options:**
 ```
   $> java -jar target/pizza-order-sorting-cli-0.0.1-SNAPSHOT.jar -help
