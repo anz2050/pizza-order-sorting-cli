@@ -34,7 +34,7 @@ public class FileProcessor {
 			try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 				br.readLine(); // this will read the first line, I want to skip header line
 				String sCurrentLine;
-
+				logger.info("---------------- Before Sorting ---------------------");
 				while ((sCurrentLine = br.readLine()) != null) {
 					
 					String[] splittedOrder = sCurrentLine.trim().split("\\s+");
